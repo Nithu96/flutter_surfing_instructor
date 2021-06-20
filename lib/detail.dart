@@ -72,6 +72,11 @@ class _InstructorDetailsPageState extends State<InstructorDetailsPage> {
                               SizedBox(height: 7.0),
                               Row(
                                 children: <Widget>[
+                                  Icon(
+                                    Icons.star,
+                                    color: Colors.deepOrange.withOpacity(0.5),
+                                    size: 15.0,
+                                  ),
                                   // SmoothStarRating(
                                   //     allowHalfRating: false,
                                   //     starCount: 5,
